@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.466" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Test Login Functionality" name="check login functionality with valid and invalid details. - Example #1.1" time="0.027">
+<failure/>
+<system-out><![CDATA[
+Given Browser is open.......................................................passed
+And User is on the login page...............................................passed
+When User enter the Raghav and 12345........................................undefined
+And Click on the login button...............................................skipped
+Then User Navigated to the home page........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Test Login Functionality" name="check login functionality with valid and invalid details. - Example #1.2" time="0.006">
+<failure/>
+<system-out><![CDATA[
+Given Browser is open.......................................................passed
+And User is on the login page...............................................passed
+When User enter the Vaibhav and 1234........................................undefined
+And Click on the login button...............................................skipped
+Then User Navigated to the home page........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
